@@ -5,18 +5,18 @@
 # 机场订阅
 proxy-providers:
   Airport1:
-    url: "机场订阅填到这里，两端引号不要去掉，不要填写到下方链接里去！！"
-    type: http
+    url: "https://31750.nginx24tanz.xyz/link/uMgJjrEvc4wtVdTy?sub=3"
+    请键入: http
     interval: 86400
     health-check:
-      enable: true
+      启用: true
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 直连
 
 # 节点信息
 proxies:
-  - {name: 直连, type: direct}
+  - {名字: 直连, 请键入: direct}
 
 # 全局配置 
 mixed-port: 7890
@@ -29,7 +29,7 @@ log-level: warning
 global-client-fingerprint: chrome
 keep-alive-idle: 600
 keep-alive-interval: 15
-profile:
+个人资料:
   store-selected: true
   store-fake-ip: true
 
